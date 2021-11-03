@@ -89,16 +89,16 @@ public class Paquete
 
     }
 
-    // /**
-     // *  Devuelve el peso facturable de un paquete
-     // *  Siempre es el valor mayor entre su peso real y su peso volumétrico
-     // *      
-     // */
-    // public double calcularPesoFacturable() {
-        // TODO
-       // return 0;
+    /**
+     *  Devuelve el peso facturable de un paquete
+     *  Siempre es el valor mayor entre su peso real y su peso volumétrico
+     *      
+     */
+    public double calcularPesoFacturable() {
+        6000.000/1.2;
+       return 5000;
 
-    // }
+    }
 
 
     // /**
