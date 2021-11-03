@@ -2,7 +2,7 @@
 /**
  *  Representa una dimensión
  *  
- *  @author - 
+ *  @author Endika Ciordia Fernández- 
  */
 public class Dimension  
 {
@@ -44,30 +44,30 @@ public class Dimension
     /**
      * Devuelve una copia exacta al objeto actual
      */
-    public Dimension obtenerCopia() {
-        //TODO
-        return null;
+    public Dimension obtenerCopia(get copia) {
+        
+        return  new copia;
 
     }
 
-    /**
-     * Repesentación textual de la dimensión
-     * (leer enunciado)
-     */
-    public String toString() {
-        //TODO
-        return null;
+    // /**
+     // * Repesentación textual de la dimensión
+     // * (leer enunciado)
+     // */
+    // public String toString() {
+        // TODO
+        // return null;
 
-    }
+    // }
 
-    /**
-     * Muestra en pantalla el objeto actual
-     * Este método se incluye como método de prueba
-     * de la clase Dimension
-     */
-    public void print() {
-        System.out.println(this.toString());
-    }
+    // /**
+     // * Muestra en pantalla el objeto actual
+     // * Este método se incluye como método de prueba
+     // * de la clase Dimension
+     // */
+    // public void print() {
+        // System.out.println(this.toString());
+    // }
 
     
-}
+// }
