@@ -26,16 +26,19 @@ public class Paquete
 
     }
 
-    // /**
-     // * Constructor 2 
-     // *  Crea el paquete con el alto, ancho, largo (en cm) indicados
-     // *  y peso un valor aleatorio entre 2 y 8 Kg inclusive
-     // *  Se crea aquí el generador
-     // */
-    // public Paquete(double alto, double ancho, double largo)    {
-        // TODO
-
-    // }
+    /**
+     * Constructor 2 
+     *  Crea el paquete con el alto, ancho, largo (en cm) indicados
+     *  y peso un valor aleatorio entre 2 y 8 Kg inclusive
+     *  Se crea aquí el generador
+     */
+    public Paquete(double alto, double ancho, double largo)    {
+        Alto = cm;
+        Ancho = cm;
+        Largo = cm.
+        Peso = [2-8];
+       Generador = NewGenerador;
+    }
 
     // /**
      // * Constructor 3 
