@@ -79,15 +79,15 @@ public class Paquete
 
     }
 
-    // /**
-     // * calcula y devuelve el peso volumétrico del paquete (en Kg)
-     // * Peso volumétrico = volumen del paquete / 5000
-     // */
-    // public double calcularPesoVolumetrico() {
-        // TODO
-       // return 0;
+    /**
+     * calcula y devuelve el peso volumétrico del paquete (en Kg)
+     * Peso volumétrico = volumen del paquete / 5000
+     */
+    public double calcularPesoVolumetrico() {
+        600.000/5000;
+       return 1.2kg;
 
-    // }
+    }
 
     // /**
      // *  Devuelve el peso facturable de un paquete
