@@ -40,15 +40,18 @@ public class Paquete
        Generador = NewGenerador;
     }
 
-    // /**
-     // * Constructor 3 
-     // * Crea el paquete a la dimension y peso indicados
-     // * 
-     // */
-    // public Paquete(Dimension dimension, double peso)    {
-        // TODO
+    /**
+     * Constructor 3 
+     * Crea el paquete a la dimension y peso indicados
+     * 
+     */
+    public Paquete(Dimension dimension, double peso)    {
+        Alto = 50cm;
+        Ancho = 50cm;
+        Largo = 70cm;
+        Peso = 13kg;
 
-    // }
+    }
 
     // /**
      // * accesor para la dimensión
