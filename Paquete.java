@@ -101,15 +101,15 @@ public class Paquete
     }
 
 
-    // /**
-     // * Devuelve una copia exacta al objeto actual
-     // * Se obtienen copias también de los objetos que contenga
-     // */
-    // public Paquete obtenerCopia() {
-        // TODO
-       // return null;
+    /**
+     * Devuelve una copia exacta al objeto actual
+     * Se obtienen copias también de los objetos que contenga
+     */
+    public Paquete obtenerCopia() {
+        
+       return copias;
 
-    // }
+    }
 
     // /**
      // * Representación textual del paquete
