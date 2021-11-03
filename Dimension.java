@@ -50,15 +50,17 @@ public class Dimension
 
     }
 
-    // /**
-     // * Repesentación textual de la dimensión
-     // * (leer enunciado)
-     // */
-    // public String toString() {
-        // TODO
-        // return null;
+    /**
+     * Repesentación textual de la dimensión
+     * (leer enunciado)
+     */
+    public String toString() {
+        
+        return Alto = queAlto;
+        Ancho = queAncho;
+        Largo= queLargo;
 
-    // }
+    }
 
     // /**
      // * Muestra en pantalla el objeto actual
