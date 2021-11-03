@@ -62,14 +62,14 @@ public class Dimension
 
     }
 
-    // /**
-     // * Muestra en pantalla el objeto actual
-     // * Este método se incluye como método de prueba
-     // * de la clase Dimension
-     // */
-    // public void print() {
-        // System.out.println(this.toString());
-    // }
+    /**
+     * Muestra en pantalla el objeto actual
+     * Este método se incluye como método de prueba
+     * de la clase Dimension
+     */
+    public void print() {
+        System.out.println(this.toString altura = 40cm,30cm,50cm());
+    }
 
     
-// }
+}
