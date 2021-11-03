@@ -53,31 +53,31 @@ public class Paquete
 
     }
 
-    // /**
-     // * accesor para la dimensión
-     // */
-    // public Dimension getDimension() {
-        // return this.dimension;
+    /**
+     * accesor para la dimensión
+     */
+    public Dimension getDimension() {
+        return this.dimension;
 
-    // }
+    }
 
-    // /**
-     // * accesor para el peso
-     // */
-    // public double getPeso() {
-        // return this.peso;
+    /**
+     * accesor para el peso
+     */
+    public double getPeso() {
+        return this.peso;
 
-    // }
+    }
 
-    // /**
-     // * calcula y devuelve el volumen del paquete (en cm3)
-     // * El volumen = alto x ancho x largo
-     // */
-    // public double calcularVolumen() {
-       // TODO
-       // return 0;
+    /**
+     * calcula y devuelve el volumen del paquete (en cm3)
+     * El volumen = alto x ancho x largo
+     */
+    public double calcularVolumen() {
+       V= alto * ancho * largo;
+       return 600.000cm3;
 
-    // }
+    }
 
     // /**
      // * calcula y devuelve el peso volumétrico del paquete (en Kg)
