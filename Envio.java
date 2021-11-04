@@ -55,69 +55,68 @@ public class Envio
      * (dependerá de cuántos paquetes estén a null)
      */
     public int getNumeroPaquetes() {
-        //TODO
-       return 0;
+       return 3;
 
     }
 
-    /**
-     * Devuelve true si el envío está completo, false en otro caso
-     * (tiene exactamente 3 paquetes)
-     */
-    public boolean envioCompleto() {
-       //TODO
-       return false;
+    // /**
+     // * Devuelve true si el envío está completo, false en otro caso
+     // * (tiene exactamente 3 paquetes)
+     // */
+    // public boolean envioCompleto() {
+       // TODO
+       // return false;
 
-    }
+    // }
 
-    /**
-     * Se añade un nuevo paquete al envío
-     * Si el envío está completo se muestra
-     * el mensaje "No se admiten más paquetes en el envío"
-     * Si no está completo se añade el paquete al envío teniendo en cuenta
-     * si se añade como primero, segundo o tercero (no han de quedar huecos)
-     */
-    public void addPaquete(Paquete paquete) {
-       //TODO
+    // /**
+     // * Se añade un nuevo paquete al envío
+     // * Si el envío está completo se muestra
+     // * el mensaje "No se admiten más paquetes en el envío"
+     // * Si no está completo se añade el paquete al envío teniendo en cuenta
+     // * si se añade como primero, segundo o tercero (no han de quedar huecos)
+     // */
+    // public void addPaquete(Paquete paquete) {
+       // TODO
         
 
-    }
+    // }
 
-    /**
-     * Calcula y devuelve el coste total del envío
-     * 
-     * Para calcular el coste:
-     *      - se obtiene el peso facturable de cada paquete 
-     *      - se suman los pesos facturables de todos los paquetes del envío
-     *      - se calcula el coste en euros según el precio del Kg 
-     *      (cada Kg. no completo se cobra entero, 5.8 Kg. se cobran como 6, 5.3 Kg. se cobran como 6)
-     *     
-     *  
-     */
-    public double calcularCosteTotalEnvio() {
-        //TODO
-       return 0;
+    // /**
+     // * Calcula y devuelve el coste total del envío
+     // * 
+     // * Para calcular el coste:
+     // *      - se obtiene el peso facturable de cada paquete 
+     // *      - se suman los pesos facturables de todos los paquetes del envío
+     // *      - se calcula el coste en euros según el precio del Kg 
+     // *      (cada Kg. no completo se cobra entero, 5.8 Kg. se cobran como 6, 5.3 Kg. se cobran como 6)
+     // *     
+     // *  
+     // */
+    // public double calcularCosteTotalEnvio() {
+        // TODO
+       // return 0;
 
-    }
+    // }
 
-    /**
-     * Representación textual del envío
-     * con el formato exacto indicado
-     * (leer enunciado)
-     */
-    public String toString() {
-       //TODO
-       return null;
-    }
+    // /**
+     // * Representación textual del envío
+     // * con el formato exacto indicado
+     // * (leer enunciado)
+     // */
+    // public String toString() {
+       // TODO
+       // return null;
+    // }
 
-    /**
-     * Muestra en pantalla el objeto actual
-     * Este método se incluye como método de prueba
-     * de la clase Envio
-     */
-    public void print() {
-        System.out.println(this.toString());
-    }
+    // /**
+     // * Muestra en pantalla el objeto actual
+     // * Este método se incluye como método de prueba
+     // * de la clase Envio
+     // */
+    // public void print() {
+        // System.out.println(this.toString());
+    // }
 
     
-}
+// }
