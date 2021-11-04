@@ -59,15 +59,15 @@ public class Envio
 
     }
 
-    // /**
-     // * Devuelve true si el envío está completo, false en otro caso
-     // * (tiene exactamente 3 paquetes)
-     // */
-    // public boolean envioCompleto() {
-       // TODO
-       // return false;
+    /**
+     * Devuelve true si el envío está completo, false en otro caso
+     * (tiene exactamente 3 paquetes)
+     */
+    public boolean envioCompleto() {
+        envio = envioCompleto;
+        return false;
 
-    // }
+    }
 
     // /**
      // * Se añade un nuevo paquete al envío
