@@ -121,15 +121,15 @@ public class Paquete
 
     }
     
-    // /**
-     // * Muestra en pantalla el objeto actual
-     // * Este método se incluye como método de prueba
-     // * de la clase Paquete
-     // */
-    // public void print() {
-        // System.out.println(this.toString());
-    // }
+    /**
+     * Muestra en pantalla el objeto actual
+     * Este método se incluye como método de prueba
+     * de la clase Paquete
+     */
+    public void print() {
+        System.out.println(this.toString())Paquete1,Paquete2,Paquete3;
+    }
 
     
 
-// }
+}
