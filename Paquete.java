@@ -111,15 +111,15 @@ public class Paquete
 
     }
 
-    // /**
-     // * Representación textual del paquete
-     // *  (leer enunciado)
-     // */
-    // public String toString() {
-        // TODO
-       // return null;
+    /**
+     * Representación textual del paquete
+     *  (leer enunciado)
+     */
+    public String toString() {
+        Alto,Ancho,Largo; 
+       return 3;
 
-    // }
+    }
     
     // /**
      // * Muestra en pantalla el objeto actual
