@@ -69,18 +69,19 @@ public class Envio
 
     }
 
-    // /**
-     // * Se añade un nuevo paquete al envío
-     // * Si el envío está completo se muestra
-     // * el mensaje "No se admiten más paquetes en el envío"
-     // * Si no está completo se añade el paquete al envío teniendo en cuenta
-     // * si se añade como primero, segundo o tercero (no han de quedar huecos)
-     // */
-    // public void addPaquete(Paquete paquete) {
-       // TODO
-        
+    /**
+     * Se añade un nuevo paquete al envío
+     * Si el envío está completo se muestra
+     * el mensaje "No se admiten más paquetes en el envío"
+     * Si no está completo se añade el paquete al envío teniendo en cuenta
+     * si se añade como primero, segundo o tercero (no han de quedar huecos)
+     */
+    public void addPaquete(Paquete paquete) {
+       
+        envioCompleto= "No se admiten más paquetes en el envío;
+        envioNoCompleto= añadir primero,segundo o tercero;
 
-    // }
+    }
 
     // /**
      // * Calcula y devuelve el coste total del envío
