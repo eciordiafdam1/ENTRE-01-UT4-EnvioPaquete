@@ -83,22 +83,22 @@ public class Envio
 
     }
 
-    // /**
-     // * Calcula y devuelve el coste total del envío
-     // * 
-     // * Para calcular el coste:
-     // *      - se obtiene el peso facturable de cada paquete 
-     // *      - se suman los pesos facturables de todos los paquetes del envío
-     // *      - se calcula el coste en euros según el precio del Kg 
-     // *      (cada Kg. no completo se cobra entero, 5.8 Kg. se cobran como 6, 5.3 Kg. se cobran como 6)
-     // *     
-     // *  
-     // */
-    // public double calcularCosteTotalEnvio() {
-        // TODO
-       // return 0;
+    /**
+     * Calcula y devuelve el coste total del envío
+     * 
+     * Para calcular el coste:
+     *      - se obtiene el peso facturable de cada paquete 
+     *      - se suman los pesos facturables de todos los paquetes del envío
+     *      - se calcula el coste en euros según el precio del Kg 
+     *      (cada Kg. no completo se cobra entero, 5.8 Kg. se cobran como 6, 5.3 Kg. se cobran como 6)
+     *     
+     *  
+     */
+    public double calcularCosteTotalEnvio() {
+        system.out.println.(5.8 + 5.3 + 6);
+       return 17,1kg;
 
-    // }
+    }
 
     // /**
      // * Representación textual del envío
