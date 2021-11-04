@@ -100,24 +100,24 @@ public class Envio
 
     }
 
-    // /**
-     // * Representación textual del envío
-     // * con el formato exacto indicado
-     // * (leer enunciado)
-     // */
-    // public String toString() {
-       // TODO
-       // return null;
-    // }
+    /**
+     * Representación textual del envío
+     * con el formato exacto indicado
+     * (leer enunciado)
+     */
+    public String toString() {
+       Alto,Largo,Ancho, Peso real,Volumen y Peso volumetrico;
+       return null;
+    }
 
-    // /**
-     // * Muestra en pantalla el objeto actual
-     // * Este método se incluye como método de prueba
-     // * de la clase Envio
-     // */
-    // public void print() {
-        // System.out.println(this.toString());
-    // }
+    /**
+     * Muestra en pantalla el objeto actual
+     * Este método se incluye como método de prueba
+     * de la clase Envio
+     */
+    public void print() {
+        System.out.println(this.toString());
+    }
 
     
 // }
